@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	padding:20px;
+	font-family:"微软雅黑";
+	font-size:15px;
+}
+#wrap{
+	padding:20px;
+	background-color: #eee;
+	border:1px solid #999;
+	overflow: auto;
+	min-width:600px;
+}
+#main{
+	width:100%;
+	float:left;
+}
+#tintroduction{
+	margin:0 140px 0 220px;
+}
+#tname{
+	margin-left:-100%;
+	width:200px;
+	float:left;
+	border:1px solid #ccc;
+	height:150px;
+	position:relative;
+	text-align: right;
+}
+#tname img{
+	position:absolute;
+	left:20px;
+	top:0;
+	right:0;
+	bottom:0;
+	margin:auto 0;
+}
+#tname span{
+	line-height: 150px;
+	margin-right: 10px;
+}
+#mlogo{
+	margin-left:-122px;
+	width:120px;
+	float:left;
+	border:1px solid #ccc;
+	text-align: center;
+	padding:10px 0;
+}
+#mlogo img{
+	margin-top:10px;
+}
