@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+}
+#tag{
+	border:2px solid #D4DBED;
+	width:200px;
+	height:30px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	margin:20px;
+}
+#tag_result div,#hobby_result div{
+	margin:20px;
+	padding:15px;
+	display: inline-block;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:2px solid #EBA6A6;
+    color:#555;
+    box-sizing: border-box;
+    text-align: center;
+}
+#tag_result div:hover,#hobby_result div:hover{
+	border:2px solid #F37E6C;
+	background-color: #FBEDED;
+	color:#777;
+}
+textarea{
+	border:2px solid #D4DBED;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	width:200px;
+	height:60px;
+	margin-left: 20px;
+}
+#confirm{
+	width:100px;
+	text-align: center;
+	border:2px solid #D4DBED;
+	height:30px;
+	line-height: 30px
+	font-size:18px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	color:#666;
+}
